@@ -27,6 +27,7 @@ dependencies = [
     "pypiwin32==223; platform_system == 'Windows'",
     "PyYAML>=3.1.0",
     "six>=1.16",
+    "setuptools>=68,<81",
     "tensorboard>=2.14",
     "torch>=2.1.1",
     "torch-geometric>=2.6,<2.7",
