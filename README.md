@@ -49,4 +49,4 @@ control.
 
 Project-specific original contributions are released under the MIT License; see
 `LICENSE`. Included Unity ML-Agents code and files derived from it remain under
-Apache License 2.0; see `LICENSE.md`, `NOTICE.md`, and `Third Party Notices.md`.
+Apache License 2.0; see `LICENSE.md` and `Third Party Notices.md`.

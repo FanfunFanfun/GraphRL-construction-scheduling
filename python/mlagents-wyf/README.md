@@ -55,5 +55,4 @@ per task node.
 ## License and attribution
 
 The upstream ML-Agents code remains under Apache License 2.0. See `LICENSE.md`,
-`Third Party Notices.md`, and `NOTICE.md`. Custom modifications are authored by
-wyf.
+`Third Party Notices.md`. Custom modifications are authored by wyf.
