@@ -1,2 +1,0 @@
-# Required Unity scene asset; keep it in Git LFS for GitHub hosting.
-*.fbx filter=lfs diff=lfs merge=lfs -text
