@@ -1,0 +1,16 @@
+# Unity-generated files
+SchedulingProject/[Ll]ibrary/
+SchedulingProject/[Tt]emp/
+SchedulingProject/[Ll]ogs/
+SchedulingProject/[Oo]bj/
+SchedulingProject/[Uu]serSettings/
+SchedulingProject/*.csproj
+SchedulingProject/*.sln
+SchedulingProject/.vs/
+SchedulingProject/.vscode/
+
+# Generated training artifacts
+results/
+**/__pycache__/
+**/*.egg-info/
+**/*.pyc

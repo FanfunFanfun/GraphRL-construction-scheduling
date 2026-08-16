@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - agent
+  - iWall
+  - wall
+  - pit
+  - frozenAgent
+  - ball
+  - blueGoal
+  - blueAgent
+  - goal
+  - ground
+  - block
+  - switchOff
+  - pyramid
+  - switchOn
+  - stone
+  - target
+  - badFood
+  - food
+  - walkableSurface
+  - symbol_X_Goal
+  - symbol_O_Goal
+  - purpleAgent
+  - tile
+  - key
+  - portal
+  - dragon
+  - TaskArea_HI
+  - blockLarge
+  - blockSmall
+  - blockVeryLarge
+  - storage
+  - site
+  - TaskArea
+  - purpleGoal
+  - storage_HI
+  - storage_R
+  - stroage_F
+  - storage_F
+  - fakeStorage_HI
+  - fakeStorage_R
+  - fakeStorage_F
+  - RecorderCamera
+  - Robot
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - AgentsLayer
+  - 
+  - invisible
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
