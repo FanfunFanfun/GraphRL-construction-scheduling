@@ -2,6 +2,8 @@
 
 Author: wyf
 
+<img width="3837" height="1504" alt="Overall framework" src="https://github.com/user-attachments/assets/2a7a021d-f147-4232-8761-0a4a8874b2a2" />
+
 This repository provides a reproducible Unity ML-Agents implementation for
 graph-based multi-agent construction task scheduling. It includes an example
 scene and task CSV, the local Unity ML-Agents packages, the custom
