@@ -11,7 +11,6 @@ scene and task CSV, the local Unity ML-Agents packages, the custom
 
 - Unity `6000.0.46f1` (the version used to validate this release);
 - Python `3.10.1` to `3.10.12`;
-- a Conda environment such as `mla_env`.
 
 ## Directory layout
 
@@ -25,10 +24,9 @@ scene and task CSV, the local Unity ML-Agents packages, the custom
 
 ## Training in Unity Editor
 
-1. Activate the intended environment and install the included package:
+1. Install the included package in the intended Python environment:
 
    ```bat
-   conda activate mla_env
    cd /d <release-root>\python\mlagents-wyf
    python -m pip install -e .
    ```
@@ -44,15 +42,8 @@ scene and task CSV, the local Unity ML-Agents packages, the custom
 
 4. When the trainer starts listening on port 5004, press Play in Unity.
 
-The configuration uses `time_scale: 30`. Results are written to `results/`,
-which is intentionally ignored by version control.
-
-## Publishing note
-
-`Robot_03_(White)_ok.fbx` is a required scene dependency and is about 175 MB.
-For GitHub, use Git LFS as declared in `.gitattributes`; a ZIP release can be
-uploaded without Git LFS. Confirm that the license of every redistributed
-third-party asset permits redistribution before publishing.
+Results are written to `results/`, which is intentionally ignored by version
+control.
 
 ## License and notices
 
