@@ -1,9 +1,9 @@
 # Graph Scheduling ML-Agents (wyf)
 
-This repository contains the Python side of the graph-based construction-task
-scheduling environment. It is derived from Unity ML-Agents `release_22`
-(`mlagents`/`mlagents-envs` 1.1.0) and adds a relational graph encoder for
-task-scheduling experiments.
+This package provides the Python training implementation for graph-based
+construction-task scheduling. It adds a relational graph encoder and dedicated
+training extensions to the Unity ML-Agents `release_22`
+(`mlagents`/`mlagents-envs` 1.1.0) foundation.
 
 ## What is customized
 
@@ -54,5 +54,6 @@ per task node.
 
 ## License and attribution
 
-The upstream ML-Agents code remains under Apache License 2.0. See `LICENSE.md`,
-`Third Party Notices.md`. Custom modifications are authored by wyf.
+The original graph-scheduling extensions are released under the MIT License.
+Third-party components retain their respective licenses; see `LICENSE.md` and
+`Third Party Notices.md`.
