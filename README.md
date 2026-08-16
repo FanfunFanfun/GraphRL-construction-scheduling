@@ -44,8 +44,7 @@ training configurations.
    ```
 
 4. When the trainer starts listening on port 5004, press Play in Unity.
-![Uploading image.png…]()
-
+<img width="2025" height="1023" alt="屏幕截图 2026-08-16 213821" src="https://github.com/user-attachments/assets/b2bcfb61-d822-453d-bab9-6fd36242064a" />
 
 Results are written to `results/`, which is intentionally ignored by version
 control.
