@@ -1,4 +1,4 @@
-# GraphRL Construction Scheduling Environment
+# GraphRL Construction Scheduling
 
 Author: wyf
 
