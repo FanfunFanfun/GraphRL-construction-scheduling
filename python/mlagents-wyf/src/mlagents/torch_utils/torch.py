@@ -1,7 +1,7 @@
 import os
 
 from distutils.version import LooseVersion
-import pkg_resources
+from importlib.metadata import PackageNotFoundError, version
 from mlagents.torch_utils import cpu_utils
 from mlagents.trainers.settings import TorchSettings
 from mlagents_envs.logging_util import get_logger
@@ -13,12 +13,12 @@ logger = get_logger(__name__)
 def assert_torch_installed():
     # Check that torch version 1.6.0 or later has been installed. If not, refer
     # user to the PyTorch webpage for install instructions.
-    torch_pkg = None
+    torch_version = None
     try:
-        torch_pkg = pkg_resources.get_distribution("torch")
-    except pkg_resources.DistributionNotFound:
+        torch_version = version("torch")
+    except PackageNotFoundError:
         pass
-    assert torch_pkg is not None and LooseVersion(torch_pkg.version) >= LooseVersion(
+    assert torch_version is not None and LooseVersion(torch_version) >= LooseVersion(
         "1.6.0"
     ), (
         "A compatible version of PyTorch was not installed. Please visit the PyTorch homepage "
