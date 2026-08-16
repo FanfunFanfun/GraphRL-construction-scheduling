@@ -1,4 +1,4 @@
-# Local Unity Editor training configuration for the 86-task scheduling scene.
+# Local Unity Editor training configuration for the construction scheduling environment.
 behaviors:
   TarSelect:
     trainer_type: ppo

@@ -1,8 +1,8 @@
-# Unity project: 86-task scheduling environment
+# Unity project: construction scheduling environment
 
 Open this directory in Unity Hub with Unity `6000.0.46f1`.
 
-The only supported scene is:
+Open the included example scene:
 
 `Assets/ML-Agents/Examples/PyramidsChange/Scenes/86.unity`
 

@@ -3,7 +3,7 @@
 using System;
 
 /// <summary>
-/// The open-source release contains the 86-task scheduling problem only.
+/// Defines the scheduling problem-size options used by the included environment.
 /// </summary>
 public enum SchedulingProblemSize
 {

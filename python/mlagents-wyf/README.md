@@ -2,8 +2,8 @@
 
 This repository contains the Python side of the graph-based construction-task
 scheduling environment. It is derived from Unity ML-Agents `release_22`
-(`mlagents`/`mlagents-envs` 1.1.0) and adds a relational graph encoder for the
-86-, 172-, and 226-task experiments.
+(`mlagents`/`mlagents-envs` 1.1.0) and adds a relational graph encoder for
+task-scheduling experiments.
 
 ## What is customized
 
@@ -12,7 +12,7 @@ scheduling environment. It is derived from Unity ML-Agents `release_22`
   and spatial-conflict relation types;
 - task-shared discrete logits for graph observations while retaining the
   standard ML-Agents categorical head for ordinary vector observations;
-- packaged, size-specific graph topology data selected from observation shape;
+- packaged graph topology data selected from observation shape;
 - a larger gRPC message limit for graph observations.
 
 All custom source files and extension points identify `wyf` as the author.
@@ -34,8 +34,8 @@ second copy of the official packages in the same environment.
 
 ## Training
 
-The same configuration works for all supported scales. The executable's scene
-and observation shape select the matching graph topology automatically.
+The executable's scene and observation shape select the matching graph topology
+automatically.
 
 ```bash
 mlagents-learn configs/rgcn_ppo.yaml \
@@ -44,7 +44,7 @@ mlagents-learn configs/rgcn_ppo.yaml \
   --train
 ```
 
-Replace the executable and run ID with the 172- or 226-task build as needed.
+Replace the executable path and run ID for the target experiment as needed.
 
 ## Scale consistency checks
 

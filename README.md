@@ -1,12 +1,11 @@
-# Construction Scheduling Environment (86 Tasks)
+# GraphRL Construction Scheduling Environment
 
 Author: wyf
 
-This release contains the reproducible Unity ML-Agents implementation for the
-86-task construction scheduling scenario. It includes the scene, its task CSV,
-the local Unity ML-Agents packages, the custom `mlagents-wyf` Python package,
-and the training configuration. The 172- and 226-task scenarios, deployment
-builds, recordings, demonstrations, results, and Unity caches are excluded.
+This repository provides a reproducible Unity ML-Agents implementation for
+graph-based multi-agent construction task scheduling. It includes an example
+scene and task CSV, the local Unity ML-Agents packages, the custom
+`mlagents-wyf` Python package, and an editor training configuration.
 
 ## Requirements
 
@@ -21,7 +20,8 @@ builds, recordings, demonstrations, results, and Unity caches are excluded.
   packages referenced by the project. Keep them beside `SchedulingProject/`.
 - `python/mlagents-wyf/`: custom Python training package, version
   `1.1.0.post1`.
-- `config/scheduling_86_editor.yaml`: editor training configuration.
+- `config/scheduling_86_editor.yaml`: editor training configuration for the
+  included example.
 
 ## Training in Unity Editor
 

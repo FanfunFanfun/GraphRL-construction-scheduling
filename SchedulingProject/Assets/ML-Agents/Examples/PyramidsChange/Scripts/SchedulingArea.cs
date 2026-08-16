@@ -11,7 +11,7 @@ using Unity.AI.Navigation;
 using UnityEngine;
 
 /// <summary>
-/// Owns task state, multi-agent coordination, and task-area lifecycle for the 86-task scene.
+/// Owns task state, multi-agent coordination, and task-area lifecycle.
 /// </summary>
 public class SchedulingArea : Area
 {
