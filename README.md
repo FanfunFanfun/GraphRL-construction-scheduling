@@ -44,6 +44,8 @@ training configurations.
    ```
 
 4. When the trainer starts listening on port 5004, press Play in Unity.
+![Uploading image.png…]()
+
 
 Results are written to `results/`, which is intentionally ignored by version
 control.
