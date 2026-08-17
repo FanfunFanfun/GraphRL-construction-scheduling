@@ -54,4 +54,4 @@ control.
 The original Python-side training extensions, Unity-side scheduling
 implementation, construction scenes, task data, and configurations are released
 under the MIT License; see `LICENSE`. Third-party components retain their
-respective licenses; see `LICENSE.md` and `Third Party Notices.md`.
+respective licenses; see `LICENSE` and `Third Party Notices.md`.
